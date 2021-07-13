@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 80%;
+}
+
+.img-bg-container{
+    background-image: url("https://colorlib.com/etc/lf/Login_v18/images/bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.form-container{
+    min-height: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__title{
+    width: 100%;
+    display: block;
+    font-family: Poppins-Regular;
+    font-size: 30px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 43px;
+}
+
+form{
+    width: 100%;
+}
+
+.form__input{
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+label{
+    width: 100%;
+}
+
+span.label-span{
+    position: absolute;
+    left: 10px;
+    transition: all 0.3s ease;
+}
+
+/* .form__input .input-area:focus, .form__input .input-area:valid{
+    /* transform: translateY(20px);
+    transform: scale(0.8);
+    color: rgb(82, 82, 82); */
+
+
+
+
